@@ -1,0 +1,22 @@
+NOTES: (Sistema de anotacoes simples)
+
+Oque o sistema precisa fazer?
+- Listar as anotacoes
+- Pegar informacoes de UMA anotacao
+- Inserir uma nova anotacao
+- Atualizar uma anotacao
+- Deletar uma anotacao
+
+Qual a estrutura de dados?
+- Local para armazenar anotacoes
+-- ID
+-- TITLE
+-- BODY
+
+Quais os endpoints?
+
+- (GET) /api/notes - api/getall.php - Listar toda as anotacoes
+- (GET) /api/notes/{id} - api/get.php(id) - Pegar informacoes de UMA anotacao
+- (POST) /api/note(TITLE, BODY) - api/insert.php - Inserir uma nova anotacao
+- (PUT) /apo/note{id}(ID, TITLE, BODY) - api/update.php - Atualizar uma anotacao
+- (DELETE) /api/note/{id} - api/delete.php - Deletar uma anotacao
